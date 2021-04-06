@@ -1,0 +1,104 @@
+:root {
+    --primary: #b3e5fc;
+    --accent: #82b3c9;
+    --delete: #e6ffff;
+  }
+
+
+.horizontal_align {
+    display: flex;
+}
+
+.right_align {
+    float: right;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+    border-color: var(--accent);
+    background-color: var(--accent);
+  }
+
+.style_navbar {
+    background-color: var(--accent);
+}
+
+.style_main_heading {
+    background-color: var(--primary);
+}
+
+.style_form {
+    background-color: var(--primary);
+    border-left-style: solid;
+    border-width: .5em;
+    border-radius: 4px;
+    border-color: var(--accent);
+}
+
+.completedTask {
+    text-decoration: line-through;
+}
+
+
+
+
+
+
+
+
+/*
+#first_paragraph {
+    font-size: 24pt;
+}
+
+.gloss_over {
+    font-style: italic;
+    color: gray;
+}
+
+div {
+    width: 10em;
+    height: auto;
+    font-size: .5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    display: inline-block;
+    border: 5px inset green;
+    padding: 1em;
+
+}
+
+#hidden_text {
+    width: auto;
+    height: auto;
+    background-color: black;
+    transition: background-color .5s;
+    display: inline-block;
+}
+
+#hidden_text:hover {
+    background-color: white;
+}
+img:hover {
+    height: 30%;
+    width: 30%;
+}
+
+.wide_letters {
+    letter-spacing: .3em;
+}
+
+#red_text {
+    color: red;
+}
+
+#weird_colors {
+    color: blueviolet;
+    background-color: cornflowerblue;
+}
+
+#dr_pepper_background {
+    color: darkolivegreen;
+    background-image: url("/images/dr_pepper_logo.png");
+    background-size: 4em;
+}
+*/
