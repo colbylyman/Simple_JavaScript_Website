@@ -2,14 +2,6 @@
 
 class Task {
     constructor({ text, date, done, id }) {
-        // HINT This method is the constructor. In C++, this would be
-        // the Task() method. The curly braces inside the constructor is 
-        // a JavaScript syntax that is called 'deconstruction'. This
-        // means the constructor will ask for an object
-        // (`{i: 'am', an: 'object'}`) with the parameters `text`,
-        // `date`, `done`, and `id`. This will make it easier to
-        // convert it from the local storage database we will set up.
-
         this.text = fixString(text)
         this.date = date
         this.done = done
@@ -17,13 +9,6 @@ class Task {
 
     }
     toHTML() {
-        // TODO: Fill out this method. It should return a string version
-        // of this task, including an `<li>` tag and all of the
-        // Bootstrap components to make it look pretty. It should
-        // display the `text`, `date`, and `done` property of this
-        // Task. It should also have two listeners, which call the
-        // update and delete function, with this Task's `id` as a
-        // parameter.
 
         if (this.done == 'false') {
             return `
